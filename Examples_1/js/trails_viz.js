@@ -85,7 +85,7 @@ function createScatterPlot(data) {
     svg.append('g')
         .attr('class', 'grid')
         .attr('opacity', 0.8)
-        .call(d3.axisBottom(xScale).ticks(10).tickSize(height).tickFormat(''))
+        .call(d3.axisBottom(xScale).ticks(10).tickSize(height).tickFormat(''/*d => `${d}h`*/))
         .selectAll('line')
         .attr('stroke', '#ddd');
 
