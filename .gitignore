@@ -2,3 +2,7 @@ Example_2/season_bar_chart
 Example_2/season_bar_chart/*
 Example_2/time_histogram
 Example_2/time_histogram/*
+.gitignore
+README.md
+.vscode/
+.vscode/*
