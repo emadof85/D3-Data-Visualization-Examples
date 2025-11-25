@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter-Update-Exit Pattern Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>D3.js Enter-Update-Exit Pattern Example</h1>
+    <p>This example demonstrates the Enter-Update-Exit pattern in D3.js using both the traditional method (enter/merge/exit) and the join() shortcut. Select a method and click the buttons to update the chart with different datasets and observe how circles enter, update, or exit.</p>
+    <div>
+        <input type="radio" id="traditional" name="method" value="traditional" checked>
+        <label for="traditional">Traditional Method</label>
+        <input type="radio" id="join" name="method" value="join">
+        <label for="join">Join Shortcut</label>
+    </div>
+    <button id="dataset1">Load Dataset 1: [5, 10, 15]</button>
+    <button id="dataset2">Load Dataset 2: [20, 30]</button>
+    <button id="dataset3">Load Dataset 3: [8, 12, 16, 24]</button>
+    <svg width="400" height="200"></svg>
+    <script src="../../Examples_1/js/d3.v7.min.js"></script>
+    <script src="enter_update_exit.js"></script>
+</body>
+</html>

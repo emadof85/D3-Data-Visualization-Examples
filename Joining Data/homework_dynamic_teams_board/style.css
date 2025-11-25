@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+#leaderboard {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.position {
+    font-weight: bold;
+    width: 30px;
+}
+
+.name {
+    flex: 1;
+}
+
+.points, .gd {
+    width: 50px;
+    text-align: right;
+}
