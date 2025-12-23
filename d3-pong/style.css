@@ -1,0 +1,36 @@
+
+html, body, main {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 800px;
+    height: 600px;
+}
+
+text {
+    font-family: 'Overlock', cursive;
+    font-size: 1.5em;
+}
+
+line {
+    stroke: black;
+    stroke-width: 2;
+}
+
+.area {
+    fill: white;
+    stroke: "red";
+}
